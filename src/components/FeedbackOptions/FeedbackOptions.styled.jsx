@@ -7,10 +7,7 @@ export const Div = styled.div`
 `;
 
 export const Button = styled.button`
-  align-items: center;
-  justify-content: center;
   margin: ${p => p.theme.space[4]}px;
- 
   padding-top: ${p => p.theme.space[3]}px;
   padding-bottom: ${p => p.theme.space[3]}px;
   padding-left: ${p => p.theme.space[4]}px;
