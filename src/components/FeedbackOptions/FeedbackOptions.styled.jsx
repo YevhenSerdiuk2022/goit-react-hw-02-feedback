@@ -16,6 +16,8 @@ export const Button = styled.button`
   border-radius: ${p => p.theme.radii.normal};
   background-color: ${p => p.theme.colors.primary};
   color: ${p => p.theme.colors.muted};
+  font-family: ${p => p.theme.fonts.dody};
+  font-size: ${p => p.theme.fontSize.l}px;
 
  &:hover,
  &:focus{
